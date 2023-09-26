@@ -2,7 +2,7 @@
 .container{
     position: relative;
     top: 10px;
- 
+    
     
 }
 .innerbody{
@@ -10,6 +10,7 @@
     justify-content: space-around;
     column-gap: 15px;
     margin: auto;
+    margin-top: 4rem;
 
 }
 .titlebody{
@@ -45,4 +46,31 @@
 .btn:active{
     background: rgb(32, 147, 189);
     color: black;
+}
+@media screen and (min-width: 375px) and (max-width:720px){
+    .container{
+        position: relative;
+        top: 10px;
+    }
+    .innerbody{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .cardimg{
+        width: 95%;
+        height: 60%;
+        object-fit: cover;
+    }
+    .titlebody{
+        display: block;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
 }

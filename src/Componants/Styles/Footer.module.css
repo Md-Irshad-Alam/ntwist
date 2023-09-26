@@ -1,0 +1,27 @@
+
+.container{
+    position: relative;
+    top: 6rem;
+    bottom: 0;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    
+    width: 100%;
+  
+}
+.inner{
+    padding: 32px 0 2px 0;
+}
+.logoimg{
+    width: 140px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.address{
+
+}

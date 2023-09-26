@@ -4,6 +4,7 @@ import './App.css';
 import { HeaderSearch } from './Componants/Header';
 import Home from './Componants/Home';
 import Cards from './Componants/Cards';
+import Footer from './Componants/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Home/>
           <Cards/>
          </div> 
+         <Footer/>
       
     </div>
   );
