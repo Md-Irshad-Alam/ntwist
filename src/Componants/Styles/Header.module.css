@@ -1,0 +1,50 @@
+.header {
+    height: 4rem;
+
+    background-color: var(--mantine-color-body);
+    border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+  }
+  
+  .inner {
+    height:inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .logo{
+    width: 17%;
+    height: 97%;
+    object-fit: cover;
+  }
+  .title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    word-break: break-all;
+  }
+ 
+  a {
+    display: block;
+    /* line-height: 1; */
+    padding: 8px 9px;
+    text-decoration: none;
+    color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+    font-size: var(--mantine-font-size-sm);
+    font-weight: 500;
+    font-size: 1.1rem;
+  
+    @mixin hover {
+      background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+    }
+  }
+  a:nth-child(-n+1){
+    color: red;
+    border-bottom: 1px solid rgb(41, 35, 35);
+    transition: border-bottom 0.5s linear;
+    
+  }
+  a:hover{
+    border-bottom: 1.5px solid rgb(40, 29, 29)
+  }

@@ -1,0 +1,48 @@
+
+.container{
+    position: relative;
+    top: 10px;
+ 
+    
+}
+.innerbody{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 15px;
+    margin: auto;
+
+}
+.titlebody{
+    display: block;
+    text-align: left;
+    width: 50%;
+
+}
+.content{
+    display: block;
+    width: 100%;
+    text-align: left;
+
+
+}
+.cardimg{
+    width: 529px;
+    height: 352px;
+    object-fit: cover;
+}
+.btn{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    background-color: red;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-out;
+
+}
+.btn:active{
+    background: rgb(32, 147, 189);
+    color: black;
+}
