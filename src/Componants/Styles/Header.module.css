@@ -5,6 +5,10 @@
     border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
     padding-left: var(--mantine-spacing-md);
     padding-right: var(--mantine-spacing-md);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
   }
   
   .inner {
@@ -13,6 +17,14 @@
     justify-content: space-between;
     align-items: center;
   
+  }
+  /* .headerleft{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px ;
+  } */
+  .icon{
+    display: none;
   }
   .logo{
     width: 17%;
@@ -34,6 +46,7 @@
     font-size: var(--mantine-font-size-sm);
     font-weight: 500;
     font-size: 1.1rem;
+
   
     @mixin hover {
       background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
@@ -47,4 +60,11 @@
   }
   a:hover{
     border-bottom: 1.5px solid rgb(40, 29, 29)
+  }
+  @media screen and (max-device-width: 500px){
+    .icon{
+      display: block;
+      font-size: 2rem;
+    margin-left: 105px;
+    }
   }

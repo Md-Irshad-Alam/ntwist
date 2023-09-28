@@ -21,7 +21,15 @@
     justify-content: center;
     cursor: pointer;
     flex-wrap: wrap;
+    line-height: 0;
 }
 .address{
 
+}
+@media screen and (min-width: 375px) and (max-width:720px) {
+    .Footer_inner__8mHSZ {
+        padding: 32px 0 2px 0;
+        width: 86%;
+        margin: auto;
+    }
 }

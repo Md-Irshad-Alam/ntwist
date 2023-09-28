@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# Project Name :- NTWIST 
+# Technology:
+    React.js
+    Css
+    Mantine
+# Features:
+    This project completely made using the React.js framwork and Module css 
+    Project is desiged as a mobile friendly and laptop freadenly 
+    Project adujest the content automatically bassed on the window size / screen size 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Folder Stature 
+    src
+     *Componants
+        * Style
+            .Card.module.css
+            . Header.module.css
+            . Home.module.css
+            . Footer.module.css
+        * Cards.jsx
+        * Footer.jsx
+        * Home.jsx
+        * Header.jsx
+    * App.js
+
+# Project Links:
+    ### Deployed Link: https://ntwist-md-irshad-alam.vercel.app/
+    ### Githib Link: https://github.com/Md-Irshad-Alam/ntwist
+
 
 ## Available Scripts
 

@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  /* You can specify the scroll duration here, e.g., 0.5s for a half-second scroll animation */
+  scroll-behavior: smooth 120s;
 }
 
 code {

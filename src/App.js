@@ -7,6 +7,9 @@ import Cards from './Componants/Cards';
 import Footer from './Componants/Footer';
 
 function App() {
+ 
+   
+  
   return (
     <div className="App">
       
@@ -15,6 +18,7 @@ function App() {
           <Home/>
           <Cards/>
          </div> 
+         
          <Footer/>
       
     </div>

@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+body{
+  scroll-behavior: smooth;
+  /* You can specify the scroll duration here, e.g., 0.5s for a half-second scroll animation */
+  scroll-behavior: smooth 80s;
+}
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +31,15 @@
 
 .App-link {
   color: #61dafb;
+}
+.buton-cont{
+  
+
+}
+#btn{
+  border: none;
+  font-size:1.6rem ;
+  background-color: transparent;
 }
 
 @keyframes App-logo-spin {

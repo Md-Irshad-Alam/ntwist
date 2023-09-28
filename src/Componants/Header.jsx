@@ -29,10 +29,15 @@ export function HeaderSearch() {
   return (
     <header className={classes.header}>
       <div className={classes.inner}>
-        <Group>
+        <Group className={classes.headerleft}>
+          
           <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm" />
             <img src="https://ntwist.com/wp-content/uploads/2022/03/favicon.png" alt="logo" className={classes.logo}/>
             <h2 className={classes.title}>NTWIST</h2>
+          
+   
+           <p className={classes.icon}> 🔍</p>
+        
         </Group>
 
         <Group>
