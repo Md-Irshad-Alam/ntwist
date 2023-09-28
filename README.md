@@ -1,30 +1,32 @@
-# Project Name :- NTWIST 
-# Technology:
-    React.js
-    Css
-    Mantine
-# Features:
-    This project completely made using the React.js framwork and Module css 
-    Project is desiged as a mobile friendly and laptop freadenly 
-    Project adujest the content automatically bassed on the window size / screen size 
+# NTWIST
 
-# Project Folder Stature 
-    src
-     *Componants
-        * Style
-            .Card.module.css
-            . Header.module.css
-            . Home.module.css
-            . Footer.module.css
-        * Cards.jsx
-        * Footer.jsx
-        * Home.jsx
-        * Header.jsx
-    * App.js
+## Technology:
+- React.js
+- CSS
+- Mantine
 
-# Project Links:
-    ### Deployed Link: https://ntwist-md-irshad-alam.vercel.app/
-    ### Githib Link: https://github.com/Md-Irshad-Alam/ntwist
+## Features:
+- This project is entirely built using the React.js framework and module CSS.
+- It's designed to be mobile-friendly and laptop-friendly.
+- The content adjusts automatically based on the window size/screen size.
+
+## Project Folder Structure:
+- `src`
+  - `Components`
+    - `Style`
+      - `Card.module.css`
+      - `Header.module.css`
+      - `Home.module.css`
+      - `Footer.module.css`
+    - `Cards.jsx`
+    - `Footer.jsx`
+    - `Home.jsx`
+    - `Header.jsx`
+  - `App.js`
+
+## Project Links:
+- **Deployed Link:** [https://ntwist-md-irshad-alam.vercel.app/](https://ntwist-md-irshad-alam.vercel.app/)
+- **GitHub Link:** [https://github.com/Md-Irshad-Alam/ntwist](https://github.com/Md-Irshad-Alam/ntwist)
 
 
 ## Available Scripts
